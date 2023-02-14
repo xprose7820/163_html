@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+
+    <h2>Basic form with input fields</h2>
+
+    <!-- form -->
+    <div>
+        <form>
+            <p>
+                <label>Customer Name: <input></label>
+            </p>
+            <p>
+                <label>Street Address: <input></label>
+            </p>
+            <p>
+                <!-- type: what type of input field -->
+                <!-- name: how form refers to data -->
+                <!-- id: how code refers to element -->
+                <!-- value: where user input is stored -->
+
+                <input type="radio" name="size" id="size" value="size">
+                
+                <label for="size">Radio Button: </label>
+
+
+            </p>
+            <p>
+                <!-- fieldset = a group of fields that interact with each other -->
+            <fieldset>
+                <!-- legend = label for the entire section -->
+                <legend>Drink Size</legend>
+                <p>
+                    <input type="radio" name="drink" id="small" value="small">
+                    <label for="small">Small</label>
+                </p>
+                <p>
+                    <input type="radio" name="drink" id="medium" value="medium">
+                    <label for="medium">Medium</label>
+                </p>
+                <p>
+                    <input type="radio" name="drink" id="large" value="large">
+                    <label for="large">Large</label>
+                </p>
+
+
+            </fieldset>
+            <fieldset>
+                <!-- legend = label for the entire section -->
+                <legend>Drink Size</legend>
+                <p>
+                    <!-- how did you select radio indivually all of them -->
+                    <!-- must use "alt" -->
+                    <input type="checkbox" name="drink2" id="small" value="small">
+                    <label for="small">Small</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="drink2" id="medium" value="medium">
+                    <label for="medium">Medium</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="drink2" id="large" value="large">
+                    <label for="large">Large</label>
+                </p>
+
+
+            </fieldset>
+            </p>
+
+        </form>
+
+    </div>
+</body>
+
+</html>
